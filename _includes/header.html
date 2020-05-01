@@ -1,0 +1,47 @@
+
+<div class="header">
+  <h1>
+    <span class="site-title">{{ site.username }}</span>
+    <span class="site-description">{{ site.user_title }}</span>
+  </h1>
+  <div class="header-icons">
+    {% if site.email %}
+    <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
+    {% endif %}
+
+    {% if site.instagram %}
+    <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/{{ site.instagram }}"><i
+        class="icon fa fa-instagram" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.facebook %}
+    <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/{{ site.facebook }}"><i
+        class="icon fa fa-facebook" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.linkedin %}
+    <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin }}"><i
+        class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.github %}
+    <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github }}"><i
+        class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.twitter %}
+    <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{ site.twitter }}"><i
+        class="icon fa fa-twitter" aria-hidden="true"></i></a>
+    {% endif %}
+
+    {% if site.scholar %}
+    <a aria-label="My Publications" target="_blank"
+      href="https://scholar.google.com/citations?user={{ site.scholar }}"><i class="icon ai ai-google-scholar ai-3x"
+        aria-hidden="true"></i></a>
+    {% endif %}
+  </div>
+  <!-- <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+      </div> -->
+</div>
+<!-- <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a> -->

@@ -1,0 +1,28 @@
+sass:
+  style: nested # possible values: nested expanded compact compressed
+
+markdown: kramdown
+
+# Site settings
+title: Manuel López Antequera
+description: Personal website for Manuel López Antequera
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "lopezantequera.com"
+
+# User settings
+username: Manuel López Antequera
+user_title: Computer Vision Engineer
+email: mlopezantequera@gmail.com
+# twitter: mlopezantequera
+github:  mlopezantequera
+# facebook:  mlopezantequera
+linkedin: mlopezantequera
+# instagram: mlopezantequera
+scholar: I-t1ZrYAAAAJ
+
+# Google-analytics
+google-analytics:
+  id: "UA-86109526-2"
+
+exclude: ['package.json', 'src' , 'node_modules']

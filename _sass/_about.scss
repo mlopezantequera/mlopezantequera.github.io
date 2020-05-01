@@ -1,0 +1,12 @@
+#about {
+  color: $foreground;
+  background-color: $bg-transparent;
+  font-size: 120%;
+  
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
