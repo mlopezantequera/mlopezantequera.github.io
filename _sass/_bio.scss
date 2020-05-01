@@ -1,0 +1,21 @@
+#bio {
+  color: $foreground;
+  background-color: $bg-transparent;
+  font-size: 110%;
+  
+  width: 90%;
+  margin: 0 auto;
+  max-width: $maxwidth;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+
+  background-color: rgba(255, 255, 255, 0.7);
+  -moz-box-shadow:0px 0px 60px #ffffff;
+  -webkit-box-shadow:0px 0px 60px #ffffff;
+  box-shadow:0px 0px 60px #ffffff;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px; 
+  padding: 20px;
+}
