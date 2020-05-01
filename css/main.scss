@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
-t @import "vars";
+@import "vars";
 @import "base";
 @import "header";
 @import "bio";
