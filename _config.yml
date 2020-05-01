@@ -6,9 +6,6 @@ markdown: kramdown
 # Site settings
 title: Manuel López Antequera
 description: Personal website for Manuel López Antequera
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-url: "lopezantequera.com"
 
 # User settings
 username: Manuel López Antequera
