@@ -9,7 +9,7 @@
 
       {% include header.html %}
 
-      <div id="about" markdown="1">
+      <div id="bio" markdown="1">
         {% capture my_include %}{% include bio.md %}{% endcapture %}
         {{ my_include | markdownify }}
       </div>
