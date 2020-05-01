@@ -11,7 +11,7 @@ During my undergraduate studies I interned at electronics manufacturer [PREMO](h
 
 After that, I spent some time at the Department of Civil and Materials engineering at the [Royal Military Academy](https://www.rma.ac.be/en) in Brussels as a research assistant working on simulations of shockwave propagation in soil.
 
-I took a gap year to during my MsC to internship at the [Human Sensing Lab](http://www.humansensing.cs.cmu.edu) at Carnergie Mellon University, where I developed an interest for computer vision and robotics.
+I took a gap year during my MsC to become an intern at the [Human Sensing Lab](http://www.humansensing.cs.cmu.edu) at Carnergie Mellon University, where I developed an interest for computer vision and robotics.
 After that I joined the [MAPIR](http://mapir.uma.es) research lab in Málaga where I started working on my PhD in 2013.
 Finally, I joined Mapillary for a PhD internship in January 2018 and have been there since.
 </div>
