@@ -59,6 +59,8 @@
 
     padding: none;
     margin: none;
+    text-decoration: none;
+    color: $foreground;
   }
   .icon {
     text-align: center;
@@ -86,13 +88,6 @@
       line-height: 30px;
     }
   }
-  .icon_subtext {
-    text-align: center;
-    color:$foreground;
-    width: 20px;
-    height: 20px;
-    font-size: 20px;
-    }
 }
 
 .down {
